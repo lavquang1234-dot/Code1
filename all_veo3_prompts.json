@@ -1,0 +1,1984 @@
+{
+  "project_info": {
+    "title": "Veo 3 Video Generation Prompts",
+    "total_scenes": 3,
+    "created_at": "2025-10-02T22:43:18",
+    "generator": "GPT-4o-mini (tool-call + schema)",
+    "model": "google/veo-3"
+  },
+  "scenes": [
+    {
+      "model": "cinematic",
+      "request_type": "scene",
+      "duration_seconds": 8,
+      "fps": 30,
+      "resolution": "1920x1080",
+      "aspect_ratio": "16:9",
+      "language": "English",
+      "creative_brief": "A warrior charges to save, thrusting a spear into a beast, which roars in pain and reveals its visible damage (non-graphic).",
+      "global_style": {
+        "visual_tone": "dramatic",
+        "motion_rules": "dynamic | No idle seconds; maintain continuous, purposeful micro-actions for lead across full 8s; camera may include subtle micro-parallax even when static.",
+        "color_grading": "vibrant",
+        "vfx_guidance": "realistic damage effects",
+        "sound_mix": "immersive",
+        "physics_rules": "Respect gravity, drag, inertia, momentum, friction, and reaction latency. All motion is physically plausible; no teleportation; no idle seconds."
+      },
+      "continuity_logic": "Preserved setting of a sun-dappled clearing, no characters or props added, consistent with the locked scene details.",
+      "world_and_characters": {
+        "setting": "A sun-dappled clearing, cradled by towering trees, where whispers of the forest dance in the air. The ground is soft with fallen leaves, and shafts of light filter through the canopy, creating a serene yet tense atmosphere.",
+        "lead_character": "Warrior",
+        "antagonist": "Beast",
+        "weather": "The weather is calm, with a gentle breeze rustling the leaves, enhancing the tension of the scene.",
+        "battle_context": "The warrior charges into the clearing, spear in hand, to confront the beast that threatens his territory. As he thrusts the spear, the beast lets out a pained roar, revealing a deep visible damage (non-graphic). The atmosphere is charged with the urgency of the moment, as the warrior seeks to protect his domain.",
+        "character_continuity": "The warrior is dressed in rugged leather armor, suitable for combat, with a spear made of sturdy wood and a sharp metal tip. The beast is depicted with natural fur, showing signs of injury and aggression, emphasizing its role as the antagonist.",
+        "time_of_day": "day",
+        "characters": [
+          {
+            "label": "Beast",
+            "profile": {
+              "name": "Beast",
+              "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+              "wardrobe": "natural fur and hide",
+              "emotions": "agitated, reactive, predatory focus",
+              "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+              "personality_traits": "territorial, aggressive, instinct-driven",
+              "weapons_equipment": "claws, mass, bite force",
+              "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+              "tactical_role": "antagonist predator; probes, feints, charges"
+            }
+          },
+          {
+            "label": "Warrior",
+            "profile": {
+              "name": "Warrior",
+              "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+              "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+              "emotions": "composed, determined, battle-ready",
+              "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+              "personality_traits": "brave, tactical, protective, disciplined",
+              "weapons_equipment": "iron spear; small round shield; utility belt",
+              "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+              "tactical_role": "frontline engager; protects allies; leads maneuvers"
+            }
+          }
+        ],
+        "character_details": {
+          "Beast": {
+            "name": "Beast",
+            "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+            "wardrobe": "natural fur and hide",
+            "emotions": "agitated, reactive, predatory focus",
+            "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+            "personality_traits": "territorial, aggressive, instinct-driven",
+            "weapons_equipment": "claws, mass, bite force",
+            "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+            "tactical_role": "antagonist predator; probes, feints, charges"
+          },
+          "Warrior": {
+            "name": "Warrior",
+            "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+            "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+            "emotions": "composed, determined, battle-ready",
+            "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+            "personality_traits": "brave, tactical, protective, disciplined",
+            "weapons_equipment": "iron spear; small round shield; utility belt",
+            "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+            "tactical_role": "frontline engager; protects allies; leads maneuvers"
+          }
+        }
+      },
+      "shots": [
+        {
+          "id": "shot_1",
+          "start_time": 0.0,
+          "duration": 8.0,
+          "slugline": "Wide shot of the warrior charging and thrusting the spear into the beast",
+          "action_sequence": [
+            {
+              "timestamp_sec": 0.17,
+              "subject": "Beast",
+              "verb": "adjusts grip",
+              "biomechanics_note": "deltoid and trapezius muscles engage; shoulder joint rotates; core stabilizes; neural pathways activate",
+              "physics_note": "conservation of momentum governs motion; gravity creates downward force; friction provides resistance; energy transfer optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 0.52,
+              "subject": "Beast",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 0.87,
+              "subject": "Beast",
+              "verb": "charges",
+              "biomechanics_note": "The warrior propels himself forward, engaging his leg muscles for a powerful sprint, arms positioned to stabilize the spear.",
+              "physics_note": "The force of his legs pushes against the ground, creating forward momentum, while gravity pulls him down slightly as he runs.",
+              "internal_motivation": "Driven by the need to protect and save, he focuses on the beast ahead, channeling his energy into the charge.",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 1.22,
+              "subject": "Beast",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 1.57,
+              "subject": "Warrior",
+              "verb": "thrusts",
+              "biomechanics_note": "deltoid and trapezius engage; shoulder and elbow extend; hips drive forward; core stabilizes; heel-to-toe transfer; breath timing matches exertion",
+              "physics_note": "impulse applied along spear axis; momentum increases forward; friction under lead foot prevents slip; energy transfer peaks at contact; gravity constant 9.8 m/s²",
+              "internal_motivation": "neutralize threat quickly while maintaining balance and defensive structure; protect space; capitalize on opening",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.87,
+              "subject": "Beast",
+              "verb": "staggers",
+              "biomechanics_note": "Impact disrupts balance; vestibular compensation; arms flail; center of mass shifts backward",
+              "physics_note": "Impulse J=FΔt transfers momentum; body decelerates; kinetic energy absorbed",
+              "internal_motivation": "Pain response triggers defensive reflex; survival instinct"
+            },
+            {
+              "timestamp_sec": 1.92,
+              "subject": "Beast",
+              "verb": "maintains balance",
+              "biomechanics_note": "erector spinae muscles support spine; glutes engage; weight shifts through pelvis; balance maintained",
+              "physics_note": "center of gravity shifts; torque applied through limbs; angular momentum maintained; rotational forces balanced",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 2.27,
+              "subject": "Beast",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 2.62,
+              "subject": "Beast",
+              "verb": "recoils",
+              "biomechanics_note": "torso snaps back; paws skid; cervical spine flexes; stance widens; claws engage substrate; center of mass shifts rearward",
+              "physics_note": "backward acceleration from impact; kinetic energy dissipates via friction and joint flexion; momentum redirected; no slip due to high friction",
+              "internal_motivation": "withdraw from line of force; preserve stability; reassess opponent angle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 2.97,
+              "subject": "Beast",
+              "verb": "prepares stance",
+              "biomechanics_note": "biceps and triceps coordinate; elbow joint articulates; forearm muscles stabilize; grip strength optimized",
+              "physics_note": "force vectors combine; acceleration changes direction; inertia resists sudden movements; mechanical advantage applied",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 3.32,
+              "subject": "Beast",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 3.67,
+              "subject": "Beast",
+              "verb": "thrusts",
+              "biomechanics_note": "He extends his arm forward, using shoulder and arm muscles to drive the spear into the beast, while shifting his weight onto his front foot for balance.",
+              "physics_note": "The thrust generates a concentrated force at the spear's tip, pushes into (non-graphic) the beast's hide due to the warrior's momentum and the spear's sharpness.",
+              "internal_motivation": "Determined to inflict a decisive blow, he channels his fear into strength, aiming to subdue the threat.",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 3.97,
+              "subject": "Warrior",
+              "verb": "staggers",
+              "biomechanics_note": "Impact disrupts balance; vestibular compensation; arms flail; center of mass shifts backward",
+              "physics_note": "Impulse J=FΔt transfers momentum; body decelerates; kinetic energy absorbed",
+              "internal_motivation": "Pain response triggers defensive reflex; survival instinct"
+            },
+            {
+              "timestamp_sec": 4.02,
+              "subject": "Beast",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 4.37,
+              "subject": "Beast",
+              "verb": "stays alert",
+              "biomechanics_note": "abdominal muscles contract; diaphragm controls breathing; ribcage expands; core stability maximized; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "fluid dynamics affect motion; pressure changes in joints; energy dissipation through heat; thermal regulation active",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 4.72,
+              "subject": "Beast",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 5.07,
+              "subject": "Beast",
+              "verb": "focuses attention",
+              "biomechanics_note": "pectoral muscles engage; shoulder blades stabilize; arm movement coordinated; upper body strength applied",
+              "physics_note": "electromagnetic forces in muscles; chemical energy converts to mechanical; ATP hydrolysis drives contraction; cellular respiration optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 5.42,
+              "subject": "Beast",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 5.77,
+              "subject": "Beast",
+              "verb": "roars",
+              "biomechanics_note": "The beast arches its back and opens its mouth wide, using its diaphragm to produce a loud, resonant sound, while its body recoils slightly from the impact.",
+              "physics_note": "The sound waves travel through the air, creating a visceral reaction in the environment, while the recoil is a response to the pain from the spear.",
+              "internal_motivation": "Overcome by pain and anger, the beast reacts instinctively to defend itself against the attack.",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 6.12,
+              "subject": "Beast",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 6.47,
+              "subject": "Beast",
+              "verb": "maintains readiness",
+              "biomechanics_note": "deltoid and trapezius muscles engage; shoulder joint rotates; core stabilizes; neural pathways activate",
+              "physics_note": "conservation of momentum governs motion; gravity creates downward force; friction provides resistance; energy transfer optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 6.82,
+              "subject": "Beast",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 7.17,
+              "subject": "Beast",
+              "verb": "recoils",
+              "biomechanics_note": "It shifts its weight backward, using its hind legs to push away from the spear, while its front legs remain tense and ready to strike.",
+              "physics_note": "The inertia from the thrust causes the beast to move back, while gravity pulls it down, emphasizing its injury and vulnerability.",
+              "internal_motivation": "Instinctively trying to escape the pain, the beast's survival instincts kick in as it assesses the threat.",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 7.52,
+              "subject": "Beast",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 7.8,
+              "subject": "Beast",
+              "verb": "holds guard while shifting",
+              "biomechanics_note": "low stance; breath-linked sway; feet alive; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "no idle; friction & inertia managed to end frame; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "stay ready into the cut; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            }
+          ],
+          "camera": {
+            "rig": "Steadicam, providing smooth movement for dynamic action",
+            "lens_mm": 24,
+            "aperture_f": 5.6,
+            "shutter_angle_deg": 180,
+            "white_balance_k": 5600,
+            "iso": 400,
+            "position_m": {
+              "start": {
+                "x": -1.4,
+                "y": 1.55,
+                "z": 4.2
+              },
+              "end": {
+                "x": -0.6,
+                "y": 1.55,
+                "z": 2.6
+              }
+            },
+            "movement": {
+              "type": "precision dolly-in with shoulder steadicam",
+              "direction": "forward diagonal, favouring warrior weapon side",
+              "speed": "rising tempo that peaks at impact",
+              "motivation": "spotlight the thrust geometry and the beast recoil in one fluid move",
+              "secondary_motion": "slow rack-focus from warrior guard to beast reaction"
+            },
+            "orientation_deg": {
+              "yaw": 0,
+              "pitch": 0,
+              "roll": 0
+            },
+            "focus": {
+              "mode": "manual"
+            },
+            "composition_style": "rule of thirds",
+            "depth_of_field": "moderate",
+            "focus_pull_style": "Quick rack focus in on the visible damage (non-graphic) after the initial action."
+          },
+          "vfx": [],
+          "lighting": "Natural sunlight filtering through the trees, creating dappled light patterns on the ground and highlighting the action.",
+          "audio": {
+            "foley": [
+              "Heavy warrior footsteps digging into soil",
+              "Armor leather creaks timed with pivot",
+              "Warrior breathing tightening before impact",
+              "Beast guttural rumble transitioning to pained bellow (non-graphic)"
+            ],
+            "sfx": [
+              "Spear shaft whoosh with air displacement",
+              "Non-graphic impact thud with bark and sine layers",
+              "Shield scrape against claws",
+              "Debris scatter as feet churn earth"
+            ],
+            "ambience": "Low canopy wind, sunlit insects, distant birds startled on impact",
+            "music_cue": "Hybrid percussion swell with low brass hit on thrust",
+            "mix_strategy": "- Foley close-mic centre, SFX wide stereo, ambience mid/side with 200Hz high-pass",
+            "spatialization": "Convolution reverb 0.5s tail, slight slapback on beast roar",
+            "notes": "Side-chain music 3dB when spear impact lands; keep beast vocal mono for weight"
+          },
+          "transition_out": "cut"
+        }
+      ],
+      "safety_and_quality": {
+        "avoid": [
+          "graphic violence",
+          "exaggerated movements",
+          "unrealistic physics",
+          "graphic injury or gore",
+          "hate symbols or slurs",
+          "sexual content or nudity",
+          "child endangerment",
+          "real-world political propaganda"
+        ],
+        "must_have": [
+          "cause→effect",
+          "non-graphic tone",
+          "physically plausible motion",
+          "non-graphic, documentary tone for combat actions",
+          "cause→effect reactions for every initiated action",
+          "physically plausible melee motion (balance, recoil, friction)",
+          "predator–prey reaction realism (non-graphic)"
+        ]
+      },
+      "output_settings": {
+        "container": "mp4",
+        "video_codec": "h264",
+        "video_bitrate": "5000k",
+        "audio_codec": "aac",
+        "audio_bitrate": "192k",
+        "normalize_audio": true,
+        "tone_mapping": "linear",
+        "grain": "none"
+      },
+      "single_prompt_for_model": "A warrior charges and thrusts a spear into a beast, which roars in pain and reveals its visible damage (non-graphic) in a sun-dappled clearing. GROUND THE SCENE: Obey the provided 'Content' as the core intent; map 'Setting/Visuals' to the setting; apply 'Camera Angle' and 'Camera Movement' into the camera; reflect 'Audio' into audio fields; repeat wardrobe/props exactly.",
+      "continuity_updates": {
+        "new_or_updated_characters": [],
+        "new_or_updated_dynamic_entities": [
+          {
+            "name": "mentor",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          },
+          {
+            "name": "lao",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          }
+        ]
+      },
+      "camera": {},
+      "vfx": [],
+      "audio": {
+        "sfx": [],
+        "foley": []
+      }
+    },
+    {
+      "model": "video_generation_model",
+      "request_type": "scene_creation",
+      "duration_seconds": 8,
+      "fps": 30,
+      "resolution": "1920x1080",
+      "aspect_ratio": "16:9",
+      "language": "English",
+      "creative_brief": "The relentless beast charges at the warrior, continuing the chase and battle amidst the trees. The tension escalates as the warrior attempts to evade the beast's attack.",
+      "global_style": {
+        "visual_tone": "dramatic",
+        "motion_rules": "dynamic and fluid | No idle seconds; maintain continuous, purposeful micro-actions for lead across full 8s; camera may include subtle micro-parallax even when static.",
+        "color_grading": "natural",
+        "vfx_guidance": "subtle enhancements for realism",
+        "sound_mix": "immersive and layered",
+        "physics_rules": "Respect gravity, drag, inertia, momentum, friction, and reaction latency. All motion is physically plausible; no teleportation; no idle seconds."
+      },
+      "continuity_logic": "Maintained consistency in setting (forest clearing), wardrobe (warrior in leather armor, beast with matted fur), and props (spear).",
+      "world_and_characters": {
+        "setting": "A dense forest clearing where shadows dance among the trees, creating an atmosphere thick with tension. The soft breeze rustles the leaves, adding to the sense of urgency. The ground is uneven, littered with fallen branches and foliage, enhancing the chaotic nature of the chase.",
+        "lead_character": "Warrior",
+        "antagonist": "Beast",
+        "weather": "A serene calm blankets the air, punctuated by a soft breeze that whispers through the leaves, creating an electric tension in the atmosphere.",
+        "battle_context": "The beast lunges at the warrior, who narrowly avoids the attack by sidestepping. The chase continues through the trees, with the warrior maintaining a defensive stance, ready to counter the beast's aggression. The environment is chaotic, with branches snapping and leaves rustling as they navigate the dense underbrush.",
+        "character_continuity": "The warrior is in battle-worn leather armor, designed for mobility and protection, while the beast's matted fur indicates its wild nature and past battles. Both characters are physically conditioned for combat, showcasing their respective roles in this intense encounter.",
+        "time_of_day": "day",
+        "characters": [
+          {
+            "label": "Warrior",
+            "profile": {
+              "name": "Warrior",
+              "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+              "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+              "emotions": "composed, determined, battle-ready",
+              "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+              "personality_traits": "brave, tactical, protective, disciplined",
+              "weapons_equipment": "iron spear; small round shield; utility belt",
+              "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+              "tactical_role": "frontline engager; protects allies; leads maneuvers"
+            }
+          },
+          {
+            "label": "Beast",
+            "profile": {
+              "name": "Beast",
+              "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+              "wardrobe": "natural fur and hide",
+              "emotions": "agitated, reactive, predatory focus",
+              "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+              "personality_traits": "territorial, aggressive, instinct-driven",
+              "weapons_equipment": "claws, mass, bite force",
+              "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+              "tactical_role": "antagonist predator; probes, feints, charges"
+            }
+          }
+        ],
+        "character_details": {
+          "Warrior": {
+            "name": "Warrior",
+            "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+            "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+            "emotions": "composed, determined, battle-ready",
+            "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+            "personality_traits": "brave, tactical, protective, disciplined",
+            "weapons_equipment": "iron spear; small round shield; utility belt",
+            "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+            "tactical_role": "frontline engager; protects allies; leads maneuvers"
+          },
+          "Beast": {
+            "name": "Beast",
+            "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+            "wardrobe": "natural fur and hide",
+            "emotions": "agitated, reactive, predatory focus",
+            "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+            "personality_traits": "territorial, aggressive, instinct-driven",
+            "weapons_equipment": "claws, mass, bite force",
+            "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+            "tactical_role": "antagonist predator; probes, feints, charges"
+          }
+        }
+      },
+      "shots": [
+        {
+          "id": "shot_1",
+          "start_time": 0.0,
+          "duration": 8.0,
+          "slugline": "Tracking shot of the beast charging at the warrior in the forest clearing.",
+          "action_sequence": [
+            {
+              "timestamp_sec": 0.17,
+              "subject": "Warrior",
+              "verb": "adjusts grip",
+              "biomechanics_note": "deltoid and trapezius muscles engage; shoulder joint rotates; core stabilizes; neural pathways activate",
+              "physics_note": "conservation of momentum governs motion; gravity creates downward force; friction provides resistance; energy transfer optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 0.52,
+              "subject": "Warrior",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 0.87,
+              "subject": "Warrior",
+              "verb": "charges",
+              "biomechanics_note": "The beast propels itself forward, muscles contracting powerfully in its legs, creating a rapid forward motion while maintaining balance through its core.",
+              "physics_note": "The force generated by the beast's legs overcomes inertia, allowing it to accelerate quickly towards the warrior, utilizing momentum to enhance its attack.",
+              "internal_motivation": "Driven by instinct and aggression, the beast seeks to overpower the warrior, fueled by the thrill of the hunt.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.22,
+              "subject": "Warrior",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.57,
+              "subject": "Warrior",
+              "verb": "thrusts",
+              "biomechanics_note": "deltoid and trapezius engage; shoulder and elbow extend; hips drive forward; core stabilizes; heel-to-toe transfer; breath timing matches exertion",
+              "physics_note": "impulse applied along spear axis; momentum increases forward; friction under lead foot prevents slip; energy transfer peaks at contact; gravity constant 9.8 m/s²",
+              "internal_motivation": "neutralize threat quickly while maintaining balance and defensive structure; protect space; capitalize on opening",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.87,
+              "subject": "Beast",
+              "verb": "staggers",
+              "biomechanics_note": "Impact disrupts balance; vestibular compensation; arms flail; center of mass shifts backward",
+              "physics_note": "Impulse J=FΔt transfers momentum; body decelerates; kinetic energy absorbed",
+              "internal_motivation": "Pain response triggers defensive reflex; survival instinct"
+            },
+            {
+              "timestamp_sec": 1.92,
+              "subject": "Warrior",
+              "verb": "maintains balance",
+              "biomechanics_note": "erector spinae muscles support spine; glutes engage; weight shifts through pelvis; balance maintained",
+              "physics_note": "center of gravity shifts; torque applied through limbs; angular momentum maintained; rotational forces balanced",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 2.27,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 2.62,
+              "subject": "Beast",
+              "verb": "recoils",
+              "biomechanics_note": "torso snaps back; paws skid; cervical spine flexes; stance widens; claws engage substrate; center of mass shifts rearward",
+              "physics_note": "backward acceleration from impact; kinetic energy dissipates via friction and joint flexion; momentum redirected; no slip due to high friction",
+              "internal_motivation": "withdraw from line of force; preserve stability; reassess opponent angle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 2.97,
+              "subject": "Warrior",
+              "verb": "reacts",
+              "biomechanics_note": "weight shifts; brief off-balance; shoulder/hips adjust; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "momentum transfer + friction produce visible response; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "preparing for confrontation; adrenaline levels elevated; fight-or-flight response activated; survival instincts engaged; defensive mechanisms primed",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 3.32,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 3.67,
+              "subject": "Warrior",
+              "verb": "sidesteps",
+              "biomechanics_note": "The warrior shifts his weight to one side, pivoting on his leading foot while extending his arm to keep the spear steady, maintaining a low center of gravity for balance.",
+              "physics_note": "The lateral movement counters the beast's charge, utilizing friction with the ground to change direction swiftly without losing stability.",
+              "internal_motivation": "Instinctively evading the attack, the warrior focuses on survival and countering the beast's aggression.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.02,
+              "subject": "Warrior",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.37,
+              "subject": "Warrior",
+              "verb": "stays alert",
+              "biomechanics_note": "abdominal muscles contract; diaphragm controls breathing; ribcage expands; core stability maximized; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "fluid dynamics affect motion; pressure changes in joints; energy dissipation through heat; thermal regulation active",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.72,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.07,
+              "subject": "Warrior",
+              "verb": "snarls",
+              "biomechanics_note": "The beast's jaw opens wide, muscles in its face and throat tense as it emits a low growl, showcasing its aggression and readiness to attack again.",
+              "physics_note": "The sound waves produced by the growl travel through the air, creating an auditory signal of threat, enhancing the tension in the environment.",
+              "internal_motivation": "Expressing dominance and frustration, the beast prepares for another assault, driven by its primal instincts.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.42,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.77,
+              "subject": "Warrior",
+              "verb": "prepares reaction",
+              "biomechanics_note": "latissimus dorsi activates; back muscles support; spinal alignment maintained; posture optimized; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "hydrostatic pressure in joints; synovial fluid reduces friction; cartilage absorbs impact; bone density supports load",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.12,
+              "subject": "Warrior",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.47,
+              "subject": "Warrior",
+              "verb": "braces",
+              "biomechanics_note": "The warrior lowers his stance, tightening his grip on the spear, engaging his core and leg muscles to prepare for the next move.",
+              "physics_note": "The warrior's body position lowers his center of gravity, increasing stability and readiness to react to the beast's next attack.",
+              "internal_motivation": "Determined to defend himself, the warrior focuses on maintaining control and preparing for a counterattack.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.82,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.17,
+              "subject": "Warrior",
+              "verb": "stays vigilant",
+              "biomechanics_note": "quadriceps and hamstrings contract; hip flexors activate; ankle joints flex; weight distribution optimized",
+              "physics_note": "kinetic energy transfers through joints; potential energy stored in muscle tension; air resistance affects movement; momentum conserved",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.52,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.8,
+              "subject": "Warrior",
+              "verb": "holds guard while shifting",
+              "biomechanics_note": "low stance; breath-linked sway; feet alive; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "no idle; friction & inertia managed to end frame; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "stay ready into the cut; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            }
+          ],
+          "camera": {
+            "rig": "Steadicam, providing smooth tracking of the action while maintaining stability during rapid movements.",
+            "lens_mm": 24,
+            "aperture_f": 5.6,
+            "shutter_angle_deg": 180,
+            "white_balance_k": 5600,
+            "iso": 400,
+            "position_m": {
+              "start": {
+                "x": -2.0,
+                "y": 1.5,
+                "z": 3.6
+              },
+              "end": {
+                "x": 0.8,
+                "y": 1.5,
+                "z": 3.3
+              }
+            },
+            "movement": {
+              "type": "aggressive lateral tracking shot",
+              "direction": "left-to-right sweep that pivots around combat",
+              "speed": "surging pace with micro accelerations on attacks",
+              "motivation": "convey the beast mass and the warrior defensive pivots",
+              "secondary_motion": "brief whip-pan accents following claw strikes"
+            },
+            "orientation_deg": {
+              "yaw": 0,
+              "pitch": 0,
+              "roll": 0
+            },
+            "focus": {
+              "mode": "manual"
+            },
+            "depth_of_field": "moderate",
+            "composition_style": "rule of thirds",
+            "focus_pull_style": "none unless motivated by action"
+          },
+          "vfx": [],
+          "lighting": "Natural light filtering through the trees, creating dappled shadows on the ground, enhancing the dramatic tension of the scene.",
+          "audio": {
+            "foley": [
+              "Beast claws tearing ground",
+              "Warrior shield bracing and scraping",
+              "Grunted call-outs between defenders",
+              "Armor collisions and sliding footwork"
+            ],
+            "sfx": [
+              "Aggressive claw whooshes",
+              "Shield-metal shock impacts",
+              "Broken branch snaps as combat shifts",
+              "Dust plume bursts for heavy landings"
+            ],
+            "ambience": "Dense forest reverb with distant echo of roars",
+            "music_cue": "Rhythmic taiko pulses layered with synth bass rise",
+            "mix_strategy": "- Beast vocals up-front mono, warrior foley stereo, ambience side-mid",
+            "spatialization": "Multi-tap delay on metallic hits, subtle doppler on beast rush",
+            "notes": "EQ carve 400Hz on music during dialogue; add 3dB headroom for sudden impacts"
+          },
+          "transition_out": "cut"
+        }
+      ],
+      "safety_and_quality": {
+        "avoid": [
+          "graphic violence",
+          "unrealistic movements",
+          "idle moments",
+          "graphic injury or debris",
+          "hate symbols or slurs",
+          "sexual content or nudity",
+          "child endangerment",
+          "real-world political propaganda",
+          "graphic injury or gore"
+        ],
+        "must_have": [
+          "cause→effect",
+          "non-graphic tone",
+          "physically plausible motion",
+          "non-graphic, documentary tone for combat actions",
+          "cause→effect reactions for every initiated action",
+          "predator–prey reaction realism (non-graphic)",
+          "physically plausible ballistic motion (gravity, drag, momentum)"
+        ]
+      },
+      "output_settings": {
+        "container": "mp4",
+        "video_codec": "h264",
+        "video_bitrate": "5000k",
+        "audio_codec": "aac",
+        "audio_bitrate": "192k",
+        "normalize_audio": true,
+        "tone_mapping": "linear",
+        "grain": "none"
+      },
+      "single_prompt_for_model": "Create a dynamic tracking shot of a beast charging at a warrior in a forest clearing, capturing the intensity of their battle. GROUND THE SCENE: Obey the provided 'Content' as the core intent; map 'Setting/Visuals' to the setting; apply 'Camera Angle' and 'Camera Movement' into the camera; reflect 'Audio' into audio fields; repeat wardrobe/props exactly.",
+      "continuity_updates": {
+        "new_or_updated_characters": [],
+        "new_or_updated_dynamic_entities": [
+          {
+            "name": "mentor",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          },
+          {
+            "name": "lao",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          }
+        ]
+      },
+      "camera": {},
+      "vfx": [],
+      "audio": {
+        "sfx": [],
+        "foley": []
+      }
+    },
+    {
+      "model": "cinematic",
+      "request_type": "scene",
+      "duration_seconds": 8,
+      "fps": 30,
+      "resolution": "1920x1080",
+      "aspect_ratio": "16:9",
+      "language": "English",
+      "creative_brief": "A group of warriors pursues a fierce beast through a dense forest, using arrows to hinder its escape. The tension escalates as the beast is struck, showcasing the urgency of the chase.",
+      "global_style": {
+        "visual_tone": "dramatic",
+        "motion_rules": "dynamic and fluid | No idle seconds; maintain continuous, purposeful micro-actions for lead across full 8s; camera may include subtle micro-parallax even when static.",
+        "color_grading": "natural with high contrast",
+        "vfx_guidance": "subtle impacts and motion blur",
+        "sound_mix": "immersive with layered effects",
+        "physics_rules": "Respect gravity, drag, inertia, momentum, friction, and reaction latency. All motion is physically plausible; no teleportation; no idle seconds."
+      },
+      "continuity_logic": "Maintained consistent setting in a forest clearing, with rugged leather armor for the warrior and matted fur for the beast. Weather remains serene with a soft breeze, and no new characters or props introduced.",
+      "world_and_characters": {
+        "setting": "A clearing deep within the forest, where shadows dance and secrets linger. The terrain is steep and filled with roots, creating a challenging environment for the chase. The atmosphere is calm yet tense, with a soft breeze whispering through the leaves, enhancing the suspense of the scene.",
+        "lead_character": "Warrior",
+        "antagonist": "Beast",
+        "weather": "A serene calm blankets the air, punctuated by a soft breeze that whispers through the leaves, heightening the tension that crackles like static electricity.",
+        "battle_context": "The warriors are actively pursuing the beast, using arrows to block its path and slow it down. As multiple arrows fly through the air, some strike the beast while others narrowly miss, adding to the urgency of the chase. The beast, despite being wounded, continues to fight back with fierce determination, showcasing its resilience.",
+        "character_continuity": "The warrior is dressed in rugged leather armor, showing signs of wear and tear, while the beast's matted fur reflects its battle-hardened nature. Both characters are consistent with their established appearances and roles in the narrative.",
+        "time_of_day": "day",
+        "characters": [
+          {
+            "label": "Warrior",
+            "profile": {
+              "name": "Warrior",
+              "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+              "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+              "emotions": "composed, determined, battle-ready",
+              "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+              "personality_traits": "brave, tactical, protective, disciplined",
+              "weapons_equipment": "iron spear; small round shield; utility belt",
+              "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+              "tactical_role": "frontline engager; protects allies; leads maneuvers"
+            }
+          },
+          {
+            "label": "Beast",
+            "profile": {
+              "name": "Beast",
+              "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+              "wardrobe": "natural fur and hide",
+              "emotions": "agitated, reactive, predatory focus",
+              "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+              "personality_traits": "territorial, aggressive, instinct-driven",
+              "weapons_equipment": "claws, mass, bite force",
+              "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+              "tactical_role": "antagonist predator; probes, feints, charges"
+            }
+          }
+        ],
+        "character_details": {
+          "Warrior": {
+            "name": "Warrior",
+            "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+            "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+            "emotions": "composed, determined, battle-ready",
+            "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+            "personality_traits": "brave, tactical, protective, disciplined",
+            "weapons_equipment": "iron spear; small round shield; utility belt",
+            "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+            "tactical_role": "frontline engager; protects allies; leads maneuvers"
+          },
+          "Beast": {
+            "name": "Beast",
+            "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+            "wardrobe": "natural fur and hide",
+            "emotions": "agitated, reactive, predatory focus",
+            "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+            "personality_traits": "territorial, aggressive, instinct-driven",
+            "weapons_equipment": "claws, mass, bite force",
+            "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+            "tactical_role": "antagonist predator; probes, feints, charges"
+          }
+        }
+      },
+      "shots": [
+        {
+          "id": "shot_1",
+          "start_time": 0.0,
+          "duration": 8.0,
+          "slugline": "Panning shot of warriors pursuing a beast in a dense forest",
+          "action_sequence": [
+            {
+              "timestamp_sec": 0.17,
+              "subject": "Warrior",
+              "verb": "adjusts grip",
+              "biomechanics_note": "deltoid and trapezius muscles engage; shoulder joint rotates; core stabilizes; neural pathways activate",
+              "physics_note": "conservation of momentum governs motion; gravity creates downward force; friction provides resistance; energy transfer optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 0.52,
+              "subject": "Warrior",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 0.87,
+              "subject": "Warrior",
+              "verb": "release",
+              "biomechanics_note": "The warriors draw back their bows, engaging their shoulder and arm muscles to create tension before releasing the arrows with a swift motion of their arms and wrists.",
+              "physics_note": "The release of the bowstring propels the arrows forward, utilizing stored potential energy converted into kinetic energy, allowing the arrows to fly through the air.",
+              "internal_motivation": "Driven by the urgency to capture the beast, the warriors focus on their target, feeling the adrenaline of the chase.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.22,
+              "subject": "Warrior",
+              "verb": "re-aims",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.57,
+              "subject": "Warrior",
+              "verb": "thrusts",
+              "biomechanics_note": "deltoid and trapezius engage; shoulder and elbow extend; hips drive forward; core stabilizes; heel-to-toe transfer; breath timing matches exertion",
+              "physics_note": "impulse applied along spear axis; momentum increases forward; friction under lead foot prevents slip; energy transfer peaks at contact; gravity constant 9.8 m/s²",
+              "internal_motivation": "neutralize threat quickly while maintaining balance and defensive structure; protect space; capitalize on opening",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 1.87,
+              "subject": "Beast",
+              "verb": "staggers",
+              "biomechanics_note": "Impact disrupts balance; vestibular compensation; arms flail; center of mass shifts backward",
+              "physics_note": "Impulse J=FΔt transfers momentum; body decelerates; kinetic energy absorbed",
+              "internal_motivation": "Pain response triggers defensive reflex; survival instinct"
+            },
+            {
+              "timestamp_sec": 1.92,
+              "subject": "Warrior",
+              "verb": "maintains balance",
+              "biomechanics_note": "erector spinae muscles support spine; glutes engage; weight shifts through pelvis; balance maintained",
+              "physics_note": "center of gravity shifts; torque applied through limbs; angular momentum maintained; rotational forces balanced",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 2.27,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 2.62,
+              "subject": "Beast",
+              "verb": "recoils",
+              "biomechanics_note": "torso snaps back; paws skid; cervical spine flexes; stance widens; claws engage substrate; center of mass shifts rearward",
+              "physics_note": "backward acceleration from impact; kinetic energy dissipates via friction and joint flexion; momentum redirected; no slip due to high friction",
+              "internal_motivation": "withdraw from line of force; preserve stability; reassess opponent angle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Beast",
+                "appearance": "Large predator; dense fur; scarred hide; intense eyes; broad frame",
+                "wardrobe": "natural fur and hide",
+                "emotions": "agitated, reactive, predatory focus",
+                "movement_style": "low center of gravity; powerful bursts; lateral pivots",
+                "personality_traits": "territorial, aggressive, instinct-driven",
+                "weapons_equipment": "claws, mass, bite force",
+                "physical_condition": "wounded yet mobile; recoil on impacts; compensated gait",
+                "tactical_role": "antagonist predator; probes, feints, charges"
+              }
+            },
+            {
+              "timestamp_sec": 2.97,
+              "subject": "Warrior",
+              "verb": "fly",
+              "biomechanics_note": "The arrows soar through the air, propelled by the force of the bowstring, maintaining a straight trajectory as they cut through the wind.",
+              "physics_note": "Air resistance affects the arrows' flight, but their initial velocity allows them to travel swiftly towards the target, creating a sense of urgency in the scene.",
+              "internal_motivation": "The warriors hope to hinder the beast's escape, feeling a mix of determination and anxiety as they watch the arrows fly.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 3.32,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 3.67,
+              "subject": "Warrior",
+              "verb": "assesses situation",
+              "biomechanics_note": "neck muscles tense; cervical spine aligns; head position optimizes; visual tracking enhanced; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "elastic energy stored in tendons; muscle fibers contract; mechanical advantage optimized; power output maximized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.02,
+              "subject": "Warrior",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.37,
+              "subject": "Warrior",
+              "verb": "stumble",
+              "biomechanics_note": "The beast shifts its weight and stumbles slightly as an arrow strikes its side, causing it to momentarily lose balance and adjust its footing.",
+              "physics_note": "The impact of the arrow creates a force that disrupts the beast's momentum, forcing it to react and regain its balance to continue fleeing.",
+              "internal_motivation": "Despite the pain, the beast's instinct to survive drives it to push through the injury and continue its escape.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 4.72,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.07,
+              "subject": "Warrior",
+              "verb": "focuses attention",
+              "biomechanics_note": "pectoral muscles engage; shoulder blades stabilize; arm movement coordinated; upper body strength applied",
+              "physics_note": "electromagnetic forces in muscles; chemical energy converts to mechanical; ATP hydrolysis drives contraction; cellular respiration optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.42,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 5.77,
+              "subject": "Warrior",
+              "verb": "adjust",
+              "biomechanics_note": "The warriors reposition themselves, shifting their weight and pivoting on their feet to maintain their aim as they prepare to shoot again.",
+              "physics_note": "The friction between their feet and the ground allows for stable movement, enabling them to quickly realign their bows for another shot.",
+              "internal_motivation": "The warriors feel a sense of urgency to keep the pressure on the beast, knowing that every moment counts in the chase.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.12,
+              "subject": "Warrior",
+              "verb": "refines target",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.47,
+              "subject": "Warrior",
+              "verb": "maintains readiness",
+              "biomechanics_note": "deltoid and trapezius muscles engage; shoulder joint rotates; core stabilizes; neural pathways activate",
+              "physics_note": "conservation of momentum governs motion; gravity creates downward force; friction provides resistance; energy transfer optimized",
+              "internal_motivation": "maintaining tactical awareness and readiness for dynamic response; psychological state optimized for action",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 6.82,
+              "subject": "Warrior",
+              "verb": "steadies weapon",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.17,
+              "subject": "Warrior",
+              "verb": "strike",
+              "biomechanics_note": "Several arrows hit the beast, causing it to react instinctively, tensing its muscles and shifting its body to absorb the impacts.",
+              "physics_note": "The arrows' kinetic energy transfers to the beast upon impact, causing a momentary jolt that affects its movement and speed.",
+              "internal_motivation": "The warriors feel a surge of hope as they see their efforts paying off, pushing them to continue their pursuit.",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.52,
+              "subject": "Warrior",
+              "verb": "adjusts aim",
+              "biomechanics_note": "breath cycle; stance readjusts; grip micro-corrections; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "continuous weight shift prevents idle; friction and inertia respected; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "maintain objective without idle; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            },
+            {
+              "timestamp_sec": 7.8,
+              "subject": "Warrior",
+              "verb": "holds guard while shifting",
+              "biomechanics_note": "low stance; breath-linked sway; feet alive; hips and core stabilize; ankle dorsiflexion; controlled weight transfer; coordinated joint sequencing; balanced posture maintained throughout",
+              "physics_note": "no idle; friction & inertia managed to end frame; friction coefficient supports traction; momentum conserved and redirected; gravitational acceleration 9.8 m/s²; force vectors align with motion; braking phase limits overshoot",
+              "internal_motivation": "stay ready into the cut; maintain tactical readiness; track opponent cues; commit only with advantage; conserve energy while preserving positional safety",
+              "character_details": {
+                "name": "Warrior",
+                "appearance": "Tall, imposing figure with muscular build and combat-worn features; focused gaze",
+                "wardrobe": "Worn leather armor with metal studs; brown tunic; leather boots; cloak",
+                "emotions": "composed, determined, battle-ready",
+                "movement_style": "purposeful footwork; balanced posture; efficient transitions",
+                "personality_traits": "brave, tactical, protective, disciplined",
+                "weapons_equipment": "iron spear; small round shield; utility belt",
+                "physical_condition": "peak stamina and reflexes; minor fatigue; steady breathing",
+                "tactical_role": "frontline engager; protects allies; leads maneuvers"
+              }
+            }
+          ],
+          "camera": {
+            "rig": "Steadicam",
+            "lens_mm": 24,
+            "aperture_f": 5.6,
+            "shutter_angle_deg": 180,
+            "white_balance_k": 5600,
+            "iso": 400,
+            "position_m": {
+              "start": {
+                "x": -1.8,
+                "y": 1.7,
+                "z": 4.5
+              },
+              "end": {
+                "x": 1.0,
+                "y": 1.7,
+                "z": 4.0
+              }
+            },
+            "movement": {
+              "type": "sweeping pursuit gimbal",
+              "direction": "wide arc that tracks the hunters while revealing the escape path",
+              "speed": "elastic tempo - fast on chase bursts, gliding during releases",
+              "motivation": "let viewers read both arrow flight and beast evasion in the same frame",
+              "secondary_motion": "subtle roll corrections for terrain undulation"
+            },
+            "orientation_deg": {
+              "yaw": 0,
+              "pitch": 0,
+              "roll": 0
+            },
+            "focus": {
+              "mode": "manual"
+            },
+            "depth_of_field": "moderate",
+            "composition_style": "rule of thirds",
+            "focus_pull_style": "none unless motivated by action"
+          },
+          "vfx": [],
+          "lighting": "natural light filtering through the trees, creating dappled shadows on the ground",
+          "audio": {
+            "foley": [
+              "Boots sliding across underbrush",
+              "Bow grip creaks and finger releases",
+              "Laboured breathing from extended chase",
+              "Warrior hand signals brushing gear"
+            ],
+            "sfx": [
+              "Layered arrow twang and air hiss",
+              "Arrow impact into bark and soil hybrids",
+              "Beast panting and brush collisions",
+              "Far-field echo of commands bouncing through trees"
+            ],
+            "ambience": "Wide forest bed with intermittent gusts and passing wildlife",
+            "music_cue": "High strings ostinato with hand percussion to drive pursuit",
+            "mix_strategy": "- Foley mid, SFX panning with arrows, ambience 120deg width",
+            "spatialization": "Doppler automation on arrows, light shimmer reverb 0.3s",
+            "notes": "Automate low-pass on ambience when arrows fire to spotlight flight path"
+          },
+          "transition_out": "cut"
+        }
+      ],
+      "safety_and_quality": {
+        "avoid": [
+          "graphic violence",
+          "idle moments",
+          "unrealistic movements",
+          "graphic injury or debris",
+          "hate symbols or slurs",
+          "sexual content or nudity",
+          "child endangerment",
+          "real-world political propaganda",
+          "graphic injury or gore"
+        ],
+        "must_have": [
+          "cause→effect",
+          "non-graphic tone",
+          "physically plausible motion",
+          "non-graphic, documentary tone for combat actions",
+          "cause→effect reactions for every initiated action",
+          "predator–prey reaction realism (non-graphic)",
+          "physically plausible ballistic motion (gravity, drag, momentum)"
+        ]
+      },
+      "output_settings": {
+        "container": "mp4",
+        "video_codec": "h264",
+        "video_bitrate": "5000k",
+        "audio_codec": "aac",
+        "audio_bitrate": "192k",
+        "normalize_audio": true,
+        "tone_mapping": "linear",
+        "grain": "none"
+      },
+      "single_prompt_for_model": "A group of Warrior pursues a fierce beast through a dense forest, using arrows to hinder its escape. The tension escalates as the beast is struck, showcasing the urgency of the chase. GROUND THE SCENE: Obey the provided 'Content' as the core intent; map 'Setting/Visuals' to the setting; apply 'Camera Angle' and 'Camera Movement' into the camera; reflect 'Audio' into audio fields; repeat wardrobe/props exactly.",
+      "continuity_updates": {
+        "new_or_updated_characters": [],
+        "new_or_updated_dynamic_entities": [
+          {
+            "name": "darting projectile",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          },
+          {
+            "name": "identity",
+            "profile": {
+              "type": "projectile",
+              "motion_model": "ballistic arc; gravity, drag, momentum; non-graphic impact wording",
+              "notes": "auto-min dynamic-entity profile from scene detection"
+            }
+          }
+        ]
+      },
+      "camera": {}
+    }
+  ]
+}
